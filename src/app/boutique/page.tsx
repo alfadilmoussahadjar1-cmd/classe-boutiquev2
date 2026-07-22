@@ -5,7 +5,7 @@ const produits = [
 
   {
     nom: "Costume Noir Premium",
-    prix: "120 €",
+    prix: "10 €",
     categorie: "Homme",
     description: "Un costume élégant avec une coupe moderne pour vos événements.",
     image: "/products/costume-noir.jpeg",
@@ -15,7 +15,7 @@ const produits = [
 
   {
     nom: "Chemise Blanche Élégante",
-    prix: "45 €",
+    prix: "10€",
     categorie: "Homme",
     description: "Chemise classique premium adaptée au quotidien et aux occasions.",
     image: "/products/chemise-blanche.jpeg",
@@ -25,7 +25,7 @@ const produits = [
 
   {
     nom: "Veste Beige Moderne",
-    prix: "95 €",
+    prix: "10 €",
     categorie: "Homme",
     description: "Une veste raffinée pour un style chic et contemporain.",
     image: "/products/veste-beige.jpeg",
