@@ -44,7 +44,7 @@ export default function Home() {
       className="relative hover:text-gray-500 transition group"
     >
       Accueil
-      <span className="absolute left-0 -bottom-2 w-0 h-[1px] bg-black transition-all group-hover:w-full"></span>
+      <span className="absolute left-0 -bottom-2 w-0 h-px bg-black transition-all group-hover:w-full"></span>
     </a>
 
 <Link
@@ -52,7 +52,7 @@ export default function Home() {
   className="relative hover:text-gray-500 transition group"
 >
   Boutique
-  <span className="absolute left-0 -bottom-2 w-0 h-[1px] bg-black transition-all group-hover:w-full"></span>
+  <span className="absolute left-0 -bottom-2 w-0 h-px bg-black transition-all group-hover:w-full"></span>
 </Link>
 
 
@@ -61,7 +61,7 @@ export default function Home() {
       className="relative hover:text-gray-500 transition group"
     >
       Collections
-      <span className="absolute left-0 -bottom-2 w-0 h-[1px] bg-black transition-all group-hover:w-full"></span>
+      <span className="absolute left-0 -bottom-2 w-0 h-px bg-black transition-all group-hover:w-full"></span>
     </a>
 
 
@@ -70,7 +70,7 @@ export default function Home() {
       className="relative hover:text-gray-500 transition group"
     >
       À propos
-      <span className="absolute left-0 -bottom-2 w-0 h-[1px] bg-black transition-all group-hover:w-full"></span>
+      <span className="absolute left-0 -bottom-2 w-0 h-px bg-black transition-all group-hover:w-full"></span>
     </a>
 
 
@@ -79,7 +79,7 @@ export default function Home() {
       className="relative hover:text-gray-500 transition group"
     >
       Contact
-      <span className="absolute left-0 -bottom-2 w-0 h-[1px] bg-black transition-all group-hover:w-full"></span>
+      <span className="absolute left-0 -bottom-2 w-0 h-px bg-black transition-all group-hover:w-full"></span>
     </a>
 
 

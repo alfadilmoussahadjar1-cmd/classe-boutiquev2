@@ -4,7 +4,7 @@ const produits = [
   {
     nom: "Costume Noir Premium",
     slug: "costume-noir",
-    prix: "10 €",
+    prix: "100 €",
     categorie: "Homme",
     description:
       "Un costume élégant avec une coupe moderne pour vos événements.",
@@ -14,7 +14,7 @@ const produits = [
   {
     nom: "Chemise Blanche Élégante",
     slug: "chemise-blanche",
-    prix: "10 €",
+    prix: "120 €",
     categorie: "Homme",
     description:
       "Chemise classique premium adaptée au quotidien et aux occasions.",
@@ -76,7 +76,7 @@ export default async function Produit({
 
         {/* IMAGE */}
 
-        <div className="relative h-[600px]">
+        <div className="relative h-150">
 
           <Image
             src={article.image}
