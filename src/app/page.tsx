@@ -1,5 +1,8 @@
 "use client";
 import Categories from "@/components/Categories";
+import FeaturedProducts from "@/components/FeaturedProducts";
+import WhyChooseUs from "@/components/WhyChooseUs";
+
 import Image from "next/image";
 import { Search, ShoppingBag, Heart} from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -295,36 +298,9 @@ export default function Home() {
 
       </section>
       <Categories />
-      {/* ================= COLLECTIONS ================= */}
-
-      <section className="px-10 py-20">
-
-        <h2 className="text-4xl font-serif text-center mb-12">
-          Nos collections
-        </h2>
-
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-
-          <div className="border p-10 text-center hover:shadow-xl transition duration-300 cursor-pointer">
-
-            <h3 className="text-2xl font-serif">
-              Homme
-            </h3>
-
-          </div>
-
-          <div className="border p-10 text-center hover:shadow-xl transition duration-300 cursor-pointer">
-
-            <h3 className="text-2xl font-serif">
-              Accessoires
-            </h3>
-
-          </div>
-
-        </div>
-
-      </section>
-
+      <FeaturedProducts />
+      <WhyChooseUs />
+  
       {/* ================= FOOTER ================= */}
 
       <footer className="border-t py-8 text-center text-gray-500">
