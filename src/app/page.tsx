@@ -1,5 +1,5 @@
 "use client";
-
+import Categories from "@/components/Categories";
 import Image from "next/image";
 import { Search, ShoppingBag, Heart} from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -294,7 +294,7 @@ export default function Home() {
         </Swiper>
 
       </section>
-
+      <Categories />
       {/* ================= COLLECTIONS ================= */}
 
       <section className="px-10 py-20">
