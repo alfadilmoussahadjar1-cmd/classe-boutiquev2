@@ -2,19 +2,19 @@ export default function Categories() {
   const categories = [
     {
       title: "Costumes",
-      image: "/costume-noir.jpeg",
+      image: "/products/costume-noir.jpeg",
     },
     {
       title: "Chemises",
-      image: "/chemise-blanche.jpeg",
+      image: "/products/chemise-blanche.jpeg",
     },
     {
       title: "Chaussures",
-      image: "/hero3.jpeg",
+      image: "/hero/hero3.jpeg",
     },
     {
       title: "Accessoires",
-      image: "/montre-luxe.jpeg",
+      image: "/products/montre-luxe.jpeg",
     },
   ];
 
