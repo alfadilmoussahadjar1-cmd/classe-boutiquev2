@@ -146,7 +146,7 @@ export default function Home() {
               <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center">
 
                 <h1 className="text-6xl font-serif">
-                  L'élégance à votre portée
+                  élégance à votre portée
                 </h1>
 
                 <p className="mt-6 max-w-xl text-lg">
@@ -250,7 +250,7 @@ export default function Home() {
               <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center">
 
                 <h1 className="text-6xl font-serif">
-                  Des accessoires d'exception
+                  Des accessoires exception
                 </h1>
                 <button className="mt-8 bg-white text-black px-8 py-4 uppercase tracking-widest hover:bg-gray-200 transition">
                   Découvrir
@@ -283,7 +283,7 @@ export default function Home() {
                 </h1>
 
                 <p className="mt-6 text-lg">
-                  L'élégance commence ici.
+                  élégance commence ici.
                 </p>
                 <button className="mt-8 bg-white text-black px-8 py-4 uppercase tracking-widest hover:bg-gray-200 transition">
                   Découvrir
