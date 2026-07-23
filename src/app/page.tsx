@@ -1,6 +1,6 @@
 "use client";
 import Categories from "@/components/Categories";
-import FeaturedProducts from "@/components/FeaturedProducts";
+import FeaturedProducts from "@/components/FeaturesProducts";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 import Image from "next/image";
