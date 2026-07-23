@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Categories from "@/components/Categories";
 import FeaturedProducts from "@/components/FeaturesProducts";
 import WhyChooseUs from "@/components/WhyChooseUs";
@@ -46,14 +47,13 @@ export default function Home() {
       <span className="absolute left-0 -bottom-2 w-0 h-[1px] bg-black transition-all group-hover:w-full"></span>
     </a>
 
-
-    <a 
-      href="/boutique"
-      className="relative hover:text-gray-500 transition group"
-    >
-      Boutique
-      <span className="absolute left-0 -bottom-2 w-0 h-[1px] bg-black transition-all group-hover:w-full"></span>
-    </a>
+<Link
+  href="/boutique"
+  className="relative hover:text-gray-500 transition group"
+>
+  Boutique
+  <span className="absolute left-0 -bottom-2 w-0 h-[1px] bg-black transition-all group-hover:w-full"></span>
+</Link>
 
 
     <a 
