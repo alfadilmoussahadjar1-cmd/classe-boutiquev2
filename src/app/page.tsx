@@ -1,9 +1,8 @@
 "use client";
 import Link from "next/link";
 import Categories from "@/components/Categories";
-import FeaturedProducts from "@/components/FeaturesProducts";
+import FeaturedProducts from "@/components/FeaturedProducts";
 import WhyChooseUs from "@/components/WhyChooseUs";
-
 import Image from "next/image";
 import { Search, ShoppingBag, Heart} from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
