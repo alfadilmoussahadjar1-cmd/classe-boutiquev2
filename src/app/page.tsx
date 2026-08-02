@@ -62,11 +62,13 @@ export default function Home() {
       <span className="absolute left-0 -bottom-2 w-0 h-px bg-black transition-all group-hover:w-full"></span>
     </a>
 
-<Link href="/about" className="relative group">
+<Link
+  href="/about"
+  className="relative hover:text-gray-500 transition group"
+>
   À propos
   <span className="absolute left-0 -bottom-2 w-0 h-px bg-black transition-all group-hover:w-full"></span>
 </Link>
-
 
     <a 
       href="#"
