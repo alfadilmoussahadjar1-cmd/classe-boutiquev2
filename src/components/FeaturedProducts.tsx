@@ -5,25 +5,25 @@ const products = [
     id: 1,
     name: "Costume Prestige",
     price: "149 000 FCFA",
-    image: "/costume-noir.jpeg",
+    image: "/products/costume-noir.jpeg",
   },
   {
     id: 2,
     name: "Chemise Premium",
     price: "35 000 FCFA",
-    image: "/chemise-blanche.jpeg",
+    image: "/products/chemise-blanche.jpeg",
   },
   {
     id: 3,
     name: "Montre Élégance",
     price: "89 000 FCFA",
-    image: "/montre-luxe.jpeg",
+    image: "/products/montre-luxe.jpeg",
   },
   {
     id: 4,
     name: "Veste Beige",
     price: "79 000 FCFA",
-    image: "/veste-beige.jpeg",
+    image: "/products/veste-beige.jpeg",
   },
 ];
 
