@@ -70,7 +70,7 @@ export default function Home() {
 </Link>
 
     <a 
-      href="#"
+      href="/about"
       className="relative hover:text-gray-500 transition group"
     >
       Contact
