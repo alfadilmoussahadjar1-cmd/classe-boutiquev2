@@ -1,46 +1,5 @@
 import Image from "next/image";
-
-const produits = [
-  {
-    nom: "Costume Noir Premium",
-    slug: "costume-noir",
-    prix: "100 €",
-    categorie: "Homme",
-    description:
-      "Un costume élégant avec une coupe moderne pour vos événements.",
-    image: "/products/costume-noir.jpeg",
-  },
-
-  {
-    nom: "Chemise Blanche Élégante",
-    slug: "chemise-blanche",
-    prix: "120 €",
-    categorie: "Homme",
-    description:
-      "Chemise classique premium adaptée au quotidien et aux occasions.",
-    image: "/products/chemise-blanche.jpeg",
-  },
-
-  {
-    nom: "Veste Beige Moderne",
-    slug: "veste-beige",
-    prix: "10 €",
-    categorie: "Homme",
-    description:
-      "Une veste raffinée pour un style chic et contemporain.",
-    image: "/products/veste-beige.jpeg",
-  },
-
-  {
-    nom: "Montre Luxe",
-    slug: "montre-luxe",
-    prix: "150 €",
-    categorie: "Accessoires",
-    description:
-      "Une montre élégante pour compléter votre tenue.",
-    image: "/products/montre-luxe.jpeg",
-  },
-];
+import { produits } from "@/data/products";
 
 
 export default async function Produit({
@@ -48,6 +7,7 @@ export default async function Produit({
 }: {
   params: Promise<{ produit: string }>;
 }) {
+
 
   const { produit } = await params;
 
@@ -58,25 +18,34 @@ export default async function Produit({
 
 
   if (!article) {
+
     return (
+
       <main className="min-h-screen flex items-center justify-center">
+
         <h1 className="text-4xl font-serif">
           Produit introuvable
         </h1>
+
       </main>
+
     );
+
   }
 
 
+
   return (
+
     <main className="min-h-screen bg-white text-black px-10 py-20">
+
 
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
 
 
         {/* IMAGE */}
 
-        <div className="relative h-150">
+        <div className="relative h-[600px]">
 
           <Image
             src={article.image}
@@ -99,9 +68,11 @@ export default async function Produit({
           </p>
 
 
+
           <h1 className="text-5xl font-serif mt-4">
             {article.nom}
           </h1>
+
 
 
           <p className="text-2xl mt-6">
@@ -109,9 +80,11 @@ export default async function Produit({
           </p>
 
 
+
           <p className="text-gray-600 mt-8 leading-relaxed">
             {article.description}
           </p>
+
 
 
           <button className="mt-10 bg-black text-white py-4 uppercase tracking-widest hover:bg-gray-800 transition">
@@ -126,5 +99,6 @@ export default async function Produit({
 
 
     </main>
+
   );
 }
