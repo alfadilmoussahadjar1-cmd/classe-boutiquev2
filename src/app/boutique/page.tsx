@@ -59,6 +59,10 @@ export default function Boutique() {
           Notre Boutique
         </h1>
 
+<h1 className="text-6xl text-red-600">
+  TEST PAGE ACCUEIL
+</h1>
+
 
         <p className="text-center mt-6 text-gray-600">
           Découvrez notre collection de vêtements et accessoires.
