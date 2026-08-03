@@ -13,7 +13,7 @@ export const produits = [
   {
     nom: "Chemise Blanche Élégante",
     slug: "chemise-blanche",
-    prix: "50 €",
+    prix: "200 €",
     categorie: "Homme",
     description:
       "Chemise classique premium adaptée au quotidien et aux occasions.",
