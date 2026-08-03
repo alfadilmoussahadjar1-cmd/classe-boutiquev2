@@ -64,10 +64,9 @@ export default function Home() {
 
 <Link
   href="/about"
-  className="relative hover:text-gray-500 transition group"
+  className="bg-red-500 text-white px-4 py-2"
 >
-  À propos
-  <span className="absolute left-0 -bottom-2 w-0 h-px bg-black transition-all group-hover:w-full"></span>
+  TEST ABOUT
 </Link>
 
     <a 
